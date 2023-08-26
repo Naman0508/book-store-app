@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+.navbar{
+    display: flex;
+    background-color:  #292828;
+    min-width: 100%;
+    min-height: 50px;
+    color: #c3BEBE;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin:0;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    width:65%;
+}
+.searchbar{
+    display: flex;
+    width:65%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+}
+.storename{
+    font-family: 'Varela', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.storename span{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:100;
+}
+.searchinput{
+    display: flex;
+    background-color:#373737;
+    align-items: center;
+    width:80%;
+
+}
+.searchinput input{
+   border:none;
+   outline: none;
+   width:90%;
+   margin-left:5px;
+   background-color:#373737;
+   color:#808080;
+}
+.searchbar button{
+    background-color:#373737;
+    width:18%;
+    border:1px solid #FFFFFF;
+    color:#808080;
+}
+.searchinput svg{
+    margin-left: 5px;
+}
+.ficons{
+    width:30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    padding-left: 10%;
+}
+.book{
+    background-color: #242121;
+    color:whitesmoke;
+    margin:0;
+}
+#root{
+    background-color: #242121;
+}
+.book{
+    width:90%;
+    margin:0 auto;
+    padding-top:5%;
+    overflow: scroll;
+}
+.book::-webkit-scrollbar {
+    display: none;
+  }
+.display-books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgsection{
+    min-width:40%;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    min-width:60%;
+    overflow: hidden;
+    height:25vh;
+    justify-content: center;
+    align-items: center;
+}
+.bookposter{
+    display: flex;
+    align-items:center ;
+}
+.item-container{
+    width:30%;
+    height:30vh;
+    margin-bottom: 50px;
+}
+.imgsection img{
+    width:100%;
+    height:100%;
+    transform: rotate(-3deg);
+}
+.description p{
+    font-size: smaller;
+}
+.desc{
+    width:95%;
+    height:40%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.description button{
+    width:50%;
+    border:1px solid white;
+    color:white;
+}
+.description h4{
+    margin-bottom: 5px;
+}
+.other-books{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5%;
+    
+}
+
+.smallbookposter{
+    min-width:20%;
+    height:200px;
+    margin-bottom: 20px;
+}
+.smallbookposter img{
+    width:100%;
+    height:100%;
+}
+
+.bookposter:hover{
+    transform: scale(1.1);
+}
+.smallbookposter:hover{
+    transform: scale(1.1);
+}
+.largebookposter{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width:100%;
+    align-items: center;
+}
+.imagesection{
+    min-width: 20%;
+    height:30vh;
+}
+.imagesection img{
+    width:100%;
+    height:100%;
+    transform: rotate(-3deg);
+}
+.details{
+    height:26vh;
+    min-width: 80%;
+    padding-left: 10px;
+}
+.title{
+    margin-bottom: 5px;
+}
+.author-pdate{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.publishdate{
+    font-size: smaller;
+    width:20%;
+    padding-right: 10px;
+}
+.describe{
+    font-weight: 100;
+    margin-bottom: 10px;
+    height:9vh;
+    overflow: scroll;
+}
+.describe::-webkit-scrollbar{
+    display: none;
+}
+.rates{
+    display: flex;
+    margin-bottom: 20px;
+}
+.line{
+    height:20px;
+    border-right:1px solid white;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    gap:20px;
+}
+.buttons button{
+    border:1px solid white;
+    color:white;
+    font-size: larger;
+}
